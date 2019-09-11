@@ -13,8 +13,8 @@ const CarsList = (props) => {
     console.log(props)
 
     return (
-        <div className="boxes">
-            <div className="box">
+        <div className="carBox">
+            <div className="cars">
                 <p>Choose a car: </p>
                 {props.carList.map(car => {
                     return (
