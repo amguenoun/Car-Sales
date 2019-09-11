@@ -20,7 +20,7 @@ const CarsList = (props) => {
                     return (
                         <div key={car.id}>
                             <Header car={car} />
-                            <button onClick={() => selectCar(car.id)}> Buy This car</button>
+                            <button className='button' onClick={() => selectCar(car.id)}> Buy This car</button>
                         </div>
                     )
                 })}
