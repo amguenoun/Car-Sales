@@ -24,7 +24,7 @@ export const reducer = (state = initialState, action) => {
                 ...state,
                 car: {
                     ...state.car,
-                    features: [...state.car.features, state.store[action.payload]]
+                    features: [...state.car.features, state.store[action.payload - 1]]
                 }
             };
         case REMOVE_FEATURE:
