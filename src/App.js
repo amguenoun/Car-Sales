@@ -9,7 +9,6 @@ import Total from './components/Total';
 import { addFeature, removeFeature } from './actions';
 
 const App = (props) => {
-
   const addFeature = itemID => {
     // dispatch an action here to add an item
     props.addFeature(itemID);

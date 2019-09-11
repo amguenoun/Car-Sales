@@ -13,3 +13,11 @@ export const removeFeature = featureID => {
         payload: featureID
     }
 }
+
+export const CHANGE_CAR = 'CHANGE_CAR';
+export const changeCar = car => {
+    return {
+        type: CHANGE_CAR,
+        payload: car
+    }
+}
