@@ -9,14 +9,14 @@ import Total from './components/Total';
 import { addFeature, removeFeature } from './actions';
 
 const App = (props) => {
-  const addFeature = itemID => {
+  const addFeature = item => {
     // dispatch an action here to add an item
-    props.addFeature(itemID);
+    props.addFeature(item);
   };
 
-  const removeFeature = itemID => {
+  const removeFeature = item => {
     // dispatch an action here to remove an item
-    props.removeFeature(itemID);
+    props.removeFeature(item);
   };
 
   return (
